@@ -25,8 +25,6 @@ class CoffeeMachine:
         self.money = 550
         self.status = "main"
         
-        json.dumps()
-
     def do(self, usr_input):
         if self.status == "main":
             if usr_input == "buy":
